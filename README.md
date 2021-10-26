@@ -1,7 +1,7 @@
 # Fork of Django Photo Gallery Sample #
 
 Original version:  
-![Original Django Photo Gallery Sample Version](https://img.shields.io/badge/Version-0.0.4-green.svg)
+[Original Django Photo Gallery Sample Version](https://img.shields.io/badge/Version-0.0.4-green.svg)
 
 ## Summary
 
