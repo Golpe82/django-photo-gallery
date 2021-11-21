@@ -15,10 +15,10 @@ class Album(models.Model):
     modified = models.DateTimeField(auto_now_add=True)
     slug = models.SlugField(max_length=50, unique=True)
 
-    #def get_absolute_url(self):
-    #    return reverse('album', kwargs={'slug':self.slug})
-
     def __unicode__(self):
+        return self.title
+
+    def __str__(self):
         return self.title
 
 class AlbumImage(models.Model):
