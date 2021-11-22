@@ -57,5 +57,5 @@ class AlbumModelAdmin(admin.ModelAdmin):
 # In case image should be removed from album.
 @admin.register(AlbumImage)
 class AlbumImageModelAdmin(admin.ModelAdmin):
-    list_display = ('alt', 'album')
+    list_display = ('alt', 'image', 'album' )
     list_filter = ('album', 'created')
