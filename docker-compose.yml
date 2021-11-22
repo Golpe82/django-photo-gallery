@@ -12,5 +12,6 @@ services:
       "
     volumes:
       - .:/code
+      - ${DRIVE_PATH}:/code/django_photo_gallery/media/albums
     ports:
       - "8000:8000"
